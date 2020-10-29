@@ -1,6 +1,6 @@
 {
     "name": "jquery-cycle2-ibe",
-    "version": "2.1.7",
+    "version": "2.1.8",
     "author": "malsup",
     "contributors": [
         "Hansel <https://github.com/Hansel03>"
@@ -36,5 +36,12 @@
         "grunt-contrib-concat": "~0.1.3",
         "grunt-contrib-uglify": "~0.2.0",
         "grunt-contrib-watch": "~0.3.1"
-    }
+    },
+    "ignore": [
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "bundleDependencies": false
 }
